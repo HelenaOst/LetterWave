@@ -29,11 +29,11 @@ span{
 
 .letter_e{
     animation: LetterWave 1s ease-in-out infinite alternate;
-    animation-delay: 0.2s;;
+    animation-delay: 0.2s;
 }
 .letter_l{
     animation: LetterWave 1s ease-in-out infinite alternate;
-    animation-delay: 0.3s;;
+    animation-delay: 0.3s;
 }
 .letter_l2{
     animation: LetterWave 1s ease-in-out infinite alternate;
