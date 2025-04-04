@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+}
+span{
+    font-size: 100px;
+}
+@keyframes LetterWave {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.4);
+    }
+}
+/*----------------------------------------------*/
+
+.letter_h{
+    animation: LetterWave 1s ease-in-out infinite alternate;
+}
+
+.letter_e{
+    animation: LetterWave 1s ease-in-out infinite alternate;
+    animation-delay: 0.2s;;
+}
+.letter_l{
+    animation: LetterWave 1s ease-in-out infinite alternate;
+    animation-delay: 0.3s;;
+}
+.letter_l2{
+    animation: LetterWave 1s ease-in-out infinite alternate;
+    animation-delay: 0.4s;
+}
+.letter_o{
+    animation: LetterWave 1s ease-in-out infinite alternate;
+    animation-delay: 0.5s;
+}
